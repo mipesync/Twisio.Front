@@ -6,7 +6,7 @@ export function HomePage() {
             style={{ backgroundImage: "url(/assets/bg.png)", 
                      backgroundRepeat: 'no-repeat',
                      backgroundSize: 'cover' }}>
-            <Header isAuth={true} isReturn={true}/>
+            <Header isAuth={false} isReturn={false}/>
         </div>
     );
 }
