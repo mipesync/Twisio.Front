@@ -10,7 +10,7 @@ export function HomePage() {
             style={{ backgroundImage: "url(/assets/bg.png)", 
                      backgroundRepeat: 'no-repeat',
                      backgroundSize: 'cover' }}>
-            <Header isAuth={true} isReturn={true}/>
+            <Header isAuth={false} isReturn={false}/>
             <div className="flex flex-row justify-between w-full h-full">
                 <ContextMenu contextItems={ContextMenuData.CATEGORY_DATA} buttonStyle={IconTextButtonStyle.HOVER_BG_RED}/>
                 <Feed/>

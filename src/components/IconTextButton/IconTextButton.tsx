@@ -3,7 +3,7 @@ import { IconTextButtonStyle } from "./IconTextButton.style";
 
 interface IconTextButtonProps {
     icon: Icons;
-    text: string;
+    text?: string;
     imgClasses?: string;
     classes?: string;
     textFirst?: boolean;
