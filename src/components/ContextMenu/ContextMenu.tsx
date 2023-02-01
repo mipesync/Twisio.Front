@@ -1,6 +1,6 @@
 import { Icons } from "../IconsEnum";
-import { IconTextButton } from "../IconTextButton/IconTextButton";
-import { IconTextButtonStyle } from "../IconTextButton/IconTextButton.style";
+import { IconTextButton } from "../Buttons/IconTextButton/IconTextButton";
+import { IconTextButtonStyle } from "../Buttons/IconTextButton/IconTextButton.style";
 
 interface ContextMenuProps {
     contextItems:{
